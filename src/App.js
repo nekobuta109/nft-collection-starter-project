@@ -86,7 +86,7 @@ const App = () => {
 // 情報を受け取ります。
 const setupEventListener = async () => {
   try {
-    const CONTRACT_ADDRESS ="0x762082122B07376261FbE6b0736A24e1A52B742D";
+    const CONTRACT_ADDRESS ="0x7E79A42051E495aE924A9536Dc899162ccC4F450";
 
     const { ethereum } = window;
     if (ethereum) {
@@ -124,7 +124,7 @@ const setupEventListener = async () => {
 
   // App.js
 const askContractToMintNft = async () => {
-  const CONTRACT_ADDRESS ="0x762082122B07376261FbE6b0736A24e1A52B742D";
+  const CONTRACT_ADDRESS ="0x7E79A42051E495aE924A9536Dc899162ccC4F450";
   try {
     const { ethereum } = window;
     if (ethereum) {
